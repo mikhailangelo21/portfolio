@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#photography">Photography</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="section">
+            <h1>Hi, I'm Pop :)</h1>
+            <p>I'm a second-year undergraduate CS and Philosophy student at the University of St Andrews</p>
+            <div class="home-buttons">
+                <a href="mailto:pt76@st-andrews.ac.uk" class="button">Email Me</a>
+                <a href="files/Popthorn Thanatit's CV.pdf" download class="button">Download CV</a>
+            </div>
+            <div class="down-arrow">
+                <a href="#about">&#x25BC;</a> 
+            </div>
+        </section>
+        
+        <section id="about" class="section">
+
+            <div class="column">
+                <h2>Education</h2>
+                <iframe 
+                    src="https://www.google.com/maps/d/u/0/embed?mid=1xRctmV7-rFtJtp6CU4Ir14I_gDzIG08&ehbc=2E312F&noprof=1" 
+                    width="640" 
+                    height="480">
+                </iframe>
+            </div>
+            <div id="list-div" class="column">
+                <h2>Achievements</h2>
+                <ul>
+                    <li>High School Valedictorian</li>
+                    <li>IB DP Full Academic Scholarship</li>
+                    <li>Dean's List in First Year</li>
+                    <li>First Place at BCGeTEC Green Business Idea Challenge</li>
+                </ul>
+                <h2>Programming Languages</h2>
+                <ul>
+                    <li>Java</li>
+                    <li>C</li>
+                    <li>Python</li>
+                    <li>JS, HTML, CSS</li>
+                    <li>Bash</li>
+                    <li>SQL</li>
+                    <li>MongoDB</li>
+                </ul>
+            </div>
+        </section>
+        
+
+        <section id="hobbies" class="section">
+            <h1>Hobbies and Projects</h1>
+            <div class="hobby-pair">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/O_9z7mE-qDQ?si=74xcvgDo8FQ01ulr&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div id="guitar-box">
+                    <h2>Guitar and Singing</h2>
+                    <ul>
+                        <li>Currently in a band performing at bars in St Andrews</li>
+                        <li>2nd place with band in high school talent show</li>
+                        <li>Built my own electric guitar</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="hobby-pair">
+                <div id="vb-box">
+                    <h2>Volleyball</h2>
+                    <ul>
+                        <li>Currently playing for the University of St Andrews men's second team</li>
+                        <li>Captain of varsity team in high school, 2nd place at tournament</li>
+                    </ul>                </div>
+                <img src="photos/volleyball.JPG" alt="Me playing volleyball" class="hobby-image">
+                <img src="photos/tournament.JPG" alt="Second place at high school tournament" class="hobby-image">
+            </div>
+            <div class="hobby-pair">
+                <img src="photos/Second D STFT.png" alt="Second derivative STFT" class="hobby-image">
+                <img src="photos/experiment.png" alt="Experiment setup" class="hobby-image">
+                <div id="cof-box">
+                    <h2>Modeling Drip Coffee</h2>
+                    <ul>
+                        <li>Investigated whether there is a period doubling bifurcation pattern</li>
+                        <li>Python and SciPy for data analysis and visualization</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <section id="photography" class="section">
+            <h1>Photography</h1>
+            <div id="track" data-mouse-down-at="0" data-prev-percent="0">
+                <img class="image" src="photos/photography/000037.JPEG" draggable="false" />
+                <img class="image" src="photos/photography/000043.jpg" draggable="false" />
+                <img class="image" src="photos/photography/000046.jpg" draggable="false" />
+                <img class="image" src="photos/photography/000050.JPEG" draggable="false" />
+                <img class="image" src="photos/photography/000050.jpg" draggable="false" />
+                <img class="image" src="photos/photography/000051.JPG" draggable="false" />
+                <img class="image" src="photos/photography/000054.JPEG" draggable="false" />
+                <img class="image" src="photos/photography/000054.JPG" draggable="false" />
+                <img class="image" src="photos/photography/000067.JPG" draggable="false" />
+                <img class="image" src="photos/photography/0020_20A.jpg" draggable="false" />
+                <img class="image" src="photos/photography/0016_17A.jpg" draggable="false" />
+                <img class="image" src="photos/photography/0018_19A.jpg" draggable="false" />
+                <img class="image" src="photos/photography/0019_19A.jpg" draggable="false" />
+                <img class="image" src="photos/photography/0026_26A.jpg" draggable="false" />
+                <img class="image" src="photos/photography/IMG_0780.JPG" draggable="false" />
+                <img class="image" src="photos/photography/IMG_3257.JPG" draggable="false" />
+            </div>
+        </section>
+    </main>
+</body>
+</html>

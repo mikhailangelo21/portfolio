@@ -312,6 +312,19 @@ nav ul li a:hover {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow */
 }
 
+#fintech-box {
+    width: 80%; /* Match the width of the image */
+    background: #007BFF; /* Blue background */
+    clip-path: polygon(100% 5%, 100% 60%, 90% 100%, 10% 85%, 10% 100%, 0 25%, 35% 0); /* Curvy shape */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow */
+}
+
 #cof-box {
     width: 80%; /* Match the width of the image */
     background: #007BFF; /* Blue background */
